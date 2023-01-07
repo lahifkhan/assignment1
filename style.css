@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+}
+/* banner style */
+.banner{
+    background-image: url(images/banner/banner1.png);
+    background-size: cover;
+    height: 808px;
+}
+.banner-item{      
+   text-align: right;
+   padding-right: 150px;
+}
+.banner h1{
+    font-weight: 700;
+font-size: 65px;
+padding-left:845px;
+padding-top: 216px;
+color: #151414;
+}
+.banner p{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+padding-left: 900px;
+margin-top: 24px;
+}
+.banner button{
+    width: 160px;
+height: 64px;
+background: #F15B22;
+border-radius: 5px;
+border: none;
+margin-top: 32px;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+
+/* failure part style */
+
+.failure{
+    display: flex;
+}
+.girl-img{
+    margin-top: 130px;
+}
+.failure-details{
+    margin-top: 370px;
+    margin-left: 100px;
+    margin-right: 300px;
+}
+.failure-details h1{
+    margin-bottom: 24px;
+    padding-right: 400px;
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+}
+.failure-details p{
+    margin-bottom: 16px;
+    padding-right: 322px;
+    font-weight: 400px;
+font-size: 16px;
+color: #444343;
+}
+ul{
+    list-style: none;
+}
+ul li::before{
+    content: "\2713";
+  color:#16D887;   
+}
+ul li{
+    margin-bottom: 8px;
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
+
+/* my plan styles */
+
+.my-plan h1{
+    text-align: center;
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-top: 120px;
+}
+.plan-types{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.cmn-h2{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+}
+.cmn-p{
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
+margin-top: 16px;
+margin-bottom: 10px;
+}
+
+/* call now styles */
+.call{
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(images/watch.png);
+background-size: cover;
+width: 1140px;
+height: 300px;
+margin-left: 100px;
+margin-top: 140px;
+border-radius: 5px;
+border: none;
+}
+.positive{
+  padding: 59px 0px;
+  padding-left: 64px;
+}
+.positive h2{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+padding-bottom: 24px;
+}
+.positive button{
+    width: 160px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 5px;
+border: none;
+font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+}
+footer{
+   display: flex;
+height: 577px;
+background: #151414;
+background-size: cover;
+margin-top: 130px;
+}
+.future {
+    margin-left: 200px;
+    margin-top: 130px;
+
+}
+.future h1{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+}
+.future p{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+padding-right: 700px;
+padding-top: 16px;
+margin-bottom: 10px;
+}
+.icon{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/* subscribe style */
+
+.subscribe{
+    margin-top: 130px;
+    margin-right: 230px;
+}
+.subscribe h3{
+    font-weight: 600;
+font-size: 30px;
+color: #FFFFFF;
+padding-bottom: 30px;
+}
+.subscribe input{
+    width: 325px;
+height: 64px;
+font-weight: 400;
+font-size: 18px;
+color: #F3F3F3;
+padding-left: 20px;
+background: #151414;
+border: 1px solid white;
+border-radius: 5px;
+}
+.subscribe button{
+    width: 170px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 8px;
+border: none;
+margin-top: 30px;
+font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+
+}
+
