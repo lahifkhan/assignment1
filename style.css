@@ -201,6 +201,42 @@ margin-top: 30px;
 font-weight: 600;
 font-size: 20px;
 color: #F15B22;
-
 }
 
+/* inspiration styles */
+.inspiration{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.inspiration img{
+    height: 500px;
+    width: 600px;
+}
+.inspiretion-details{
+   margin-top: 150px;
+   margin-left: 100px;
+}
+.inspiretion-details h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    margin-bottom: 10px;
+}
+.inspiretion-details p{
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    padding-right: 500px;
+}
+.inspiretion-details button{
+    width: 170px;
+    height: 64px;   
+    background:orangered;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+}
